@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.BookNowActivity"
+    android:layout_marginTop="18dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/back_imageview"
+            android:layout_width="9dp"
+            android:layout_height="19dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/back_btn"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="WILLIAM’S PHOTOGRAPHY"
+                android:textColor="#ffd3bd84"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:text="BOOK NOW"
+                android:textColor="#ff77777d"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/line" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="SELECT SERVICES YOU WANT TO BOOK"
+                android:textColor="#ffd3bd84"
+                android:textSize="13sp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="PHOTOGRAPHY"
+                    android:textColor="#ff77777d"
+                    android:textSize="13sp"
+                    android:layout_alignParentLeft="true" />
+
+                <ImageView
+                    android:id="@+id/checkbox_photo_imageview"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@drawable/checkbox2x" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/line"
+                android:textSize="13sp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="VIDEOGRAPHY"
+                    android:textColor="#ff77777d"
+                    android:textSize="13sp"
+                    android:layout_alignParentLeft="true" />
+
+                <ImageView
+                    android:id="@+id/checkbox_video_imageview"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@drawable/checkbox2x" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/line" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/booknow_button"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/makebook_btn2x" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

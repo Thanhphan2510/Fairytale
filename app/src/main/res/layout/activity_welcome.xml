@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.WelcomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/welcome_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:padding="15dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WELCOME"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff5d5d5d"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE "
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffacacac"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRINTING AND TYPESETTING INDUSTRY. "
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="#ffacacac"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp">
+
+
+
+                    <me.relex.circleindicator.CircleIndicator
+                        android:id="@+id/indicator"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        app:ci_width="15dp"
+                        app:ci_height="15dp"
+                        app:ci_drawable="@drawable/node_black"
+                        app:ci_drawable_unselected="@drawable/node_white"
+                        />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/skipview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="SKIP"
+                    android:textColor="#ffa0a0a0"
+                    android:textSize="13sp"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

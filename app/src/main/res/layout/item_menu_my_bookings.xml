@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+            <TextView
+                android:id="@+id/title_mybookings_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHOTOGRAPHY"
+                android:textColor="#ffd3bd84"/>
+
+            <TextView
+                android:id="@+id/status_mybookings_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02 - DEC - 2017"
+                android:textSize="13sp"
+                android:textColor="#ff9f9fa5"
+                android:layout_marginRight="15dp"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:30 AM"
+                android:textSize="13sp"
+                android:textColor="#ff9f9fa5"/>
+        </LinearLayout>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WILLIAM’S PHOTOGRAPHY"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff77777d"
+            android:textSize="13sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="106dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shapebuttonsign"
+                android:text="PHOTOGRAPHY"
+                android:textColor="#ff9f9fa5"
+                android:textSize="13sp" />
+            <Button
+                android:layout_width="106dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/shapebuttonsign"
+                android:text="VIDEOGRAPHY"
+                android:textColor="#ff9f9fa5"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING INDUSTRY. "
+            android:textColor="#ff9f9fa5"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

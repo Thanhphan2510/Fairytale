@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ForgotPassActivity"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/back_imageview"
+        android:layout_width="9dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/back_btn" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="FORGOT PASSWORD"
+            android:textColor="#ffd3bd84"
+            android:textSize="14sp"/>
+    </LinearLayout>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="358dp"
+            android:hint="PLEASE ENTER REGISTERED E-MAIL ID"
+            android:textColor="#ffbdbdc3"
+            android:background="@null"
+            android:textSize="13sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"/>
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="186dp"
+            android:layout_height="37dp"
+            android:text="REQUEST PASSWORD"
+            android:textSize="15sp"
+            android:textColor="#ffd3bd84"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/shapebuttonsign"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="PLEASE CHECK EMAIL FOR INSTRUCTIONS"
+            android:textColor="#ff9f9fa5"
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="TO RESET PASSWORD"
+            android:textColor="#ff9f9fa5"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

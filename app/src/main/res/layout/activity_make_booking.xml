@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MakeBookingActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="101dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="THANK YOU FOR BOOKING"
+                android:textColor="#ff77777d"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="YOUR BOOKING HAS BEEN SENT TO THE"
+                android:textColor="#ff9f9fa5"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="PROFESSIONAL."
+                android:textColor="#ff9f9fa5"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="YOU WILL GET A  CONFIRMATION"
+                android:textColor="#ff9f9fa5"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="STATUS ON “BOOKING TAB” "
+                android:textColor="#ff9f9fa5"
+                android:textSize="14sp"
+                android:layout_marginBottom="28dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/close_button"
+            android:layout_width="114dp"
+            android:layout_height="37dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="41dp"
+            android:background="@drawable/shapebuttonsign"
+            android:text="CLOSE"
+            android:textColor="#ff77777d"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

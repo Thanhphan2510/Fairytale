@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/shape_dialog">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="27dp"
+        android:text="NOTICE"
+        android:textColor="#ff5d5d5d"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="PLEASE ACTIVATE YOUR ACCOUNT BY"
+        android:textColor="#ff9f9fa5"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:text="CLICKING ON THE LINK SEND TO YOUR"
+        android:textColor="#ff9f9fa5"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:text="EMAIL THEN CLICK ON CONTINUE"
+        android:textColor="#ff9f9fa5"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIDN’T RECEIVE MAIL "
+            android:textColor="#ff77777d"
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESEND"
+            android:textColor="#ffd3bd84"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/continute_dialog"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="@drawable/shapebuttonsign"
+        android:text="CONTINUTE"
+        android:textColor="#ffd3bd84"/>
+    <TextView
+        android:id="@+id/skipdialog_view"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="SKIP"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="#ff9f9fa5"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="29dp"/>
+
+
+
+</LinearLayout>

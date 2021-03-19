@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="133dp">
+            <TextView
+                android:id="@+id/mybooking_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY BOOKINGS"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODELING"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHOTOGRAPHY"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODELING"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHOTOGRAPHY"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DRESS &amp; ATTIRE"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CATEGORY FOUR"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/about_us_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT US"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/contact_us_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:textSize="15sp"
+                android:textColor="#ff77777d"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/arrow_right2x" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/line"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

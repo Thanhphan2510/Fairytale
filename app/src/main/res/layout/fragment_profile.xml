@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT PROFILE"
+            android:textColor="#ff444444"
+            android:textSize="18sp"/>
+
+         <de.hdodenhof.circleimageview.CircleImageView
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:layout_width="127dp"
+           android:layout_height="127dp"
+             android:layout_marginTop="29dp"
+           android:layout_centerInParent="true"
+           android:src="@drawable/image_welcome" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textSize="12sp"
+        android:textColor="#ffbdbdc3"
+        android:layout_marginTop="28dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MICHAEL GEORGE"
+            android:textSize="14sp"
+            android:textColor="#ffbdbdc3"
+            android:layout_marginTop="8dp"
+            android:background="@null"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EMAIL ID"
+            android:textSize="12sp"
+            android:textColor="#ffbdbdc3"
+            android:layout_marginTop="13dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YOURDOMAIN@GMAIL.COM"
+            android:textSize="14sp"
+            android:textColor="#ffbdbdc3"
+            android:layout_marginTop="8dp"
+            android:background="@null"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHANGE YOUR COUNTRY"
+            android:textSize="12sp"
+            android:textColor="#ffbdbdc3"
+            android:layout_marginTop="13dp"/>
+        <Spinner
+            android:id="@+id/spinner_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+        </Spinner>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="CHANGE YOUR CITY"
+            android:textColor="#ffbdbdc3"
+            android:textSize="12sp" />
+        <Spinner
+            android:id="@+id/spinner_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+        </Spinner>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="12dp"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

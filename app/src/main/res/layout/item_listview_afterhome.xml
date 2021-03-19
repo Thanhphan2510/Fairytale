@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/pic_imageview_afterhome"
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:background="@drawable/pic6"
+
+                android:scaleType="centerCrop"
+                />
+
+            <ImageView
+                android:id="@+id/mark"
+                android:layout_width="27dp"
+                android:layout_height="29dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/mark2x" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WILLIAM’S PHOTOGRAPHY"
+                android:textSize="13sp"
+                android:textColor="#ff444444"
+
+                />
+
+            <ImageView
+                android:id="@+id/icon_afterhome"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/check2x"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STARTS@ 100 AED"
+            android:textColor="#ff9f9fa5"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="12dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

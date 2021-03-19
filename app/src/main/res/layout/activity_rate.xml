@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RateActivity"
+    android:layout_margin="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="289dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD A REVIEW"
+                android:textColor="#ff77777d"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RATING"
+                    android:textColor="#ff9f9fa5"
+                    android:textSize="14sp" />
+
+                <RatingBar
+                    android:id="@+id/rating_bar_rate"
+                    style="@style/ImageRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:isIndicator="false"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="-31dp"
+                    android:layout_marginRight="-10dp"
+                    android:numStars="5"
+                    android:scaleX="0.5"
+                    android:scaleY="0.5"
+                    android:stepSize="1" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/comment_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:background="@null"
+                android:hint="ENTER YOUR REVIEWS"
+                android:textColor="#ffbdbdc3"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="79dp"
+                android:background="@drawable/line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/shapebuttonsign"
+                android:text="SUBMIT"
+                android:textColor="#ffd3bd84"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/skipview_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="38dp"
+                android:text="SKIP"
+                android:textColor="#ff9f9fa5"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
